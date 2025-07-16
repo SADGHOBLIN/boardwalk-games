@@ -12,7 +12,6 @@
 }
 
 /* Global styles */
-
 body {
     font-family: var(--primary-font);
 }
@@ -57,7 +56,6 @@ h2 {
 }
 
 /* Services section */
-
 #services .card {
     margin-bottom: 1.5rem;
 }
@@ -69,12 +67,41 @@ h2 {
 }
 
 /* Game Library */
-
 #new-games .card,
 #fav-games .card {
     border: none;
 }
 
+/* Footer / Contact */
+#contact {
+    background-color: var(--primary-colour);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .sub-heading-colour {
+    color: var(--highlight-colour-light);
+}
+
+#contact i {
+    color: var(--secondary-colour);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--highlight-colour-light);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-colour);
+}
 /* Grid visualisation css for testing */
 /* .container,
 .row {
