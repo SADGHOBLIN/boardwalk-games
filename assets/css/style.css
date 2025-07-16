@@ -68,6 +68,12 @@ h2 {
     background-color: transparent;
 }
 
+/* Game Library */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
 
 /* Grid visualisation css for testing */
 /* .container,
