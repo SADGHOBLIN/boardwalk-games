@@ -102,6 +102,11 @@ h2 {
 #contact .social-links i:hover {
     color: var(--secondary-colour);
 }
+
+#contact .table-dark * {
+    background-color: transparent;
+}
+
 /* Grid visualisation css for testing */
 /* .container,
 .row {
