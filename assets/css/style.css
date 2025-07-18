@@ -9,6 +9,7 @@
     --secondary-colour: #aa9581; /* light brown */
     --highlight-colour: #416a8e; /* mid blue */
     --highlight-colour-light: #7a9fc2; /* light blue */
+    --highlight-colour-light-rgb: 122, 159, 194 /* light blue */
 }
 
 /* Global styles */
@@ -105,6 +106,13 @@ h2 {
 
 #events .table {
     font-size: 0.75rem;
+}
+
+/* table hover effect, targetting the table headers and data, only if they are inside the table body - overrides bootstrap style */
+#events .table-hover tbody tr:hover td,
+#events .table-hover tbody tr:hover th {
+    background-color: var(--highlight-colour);
+    color: white;
 }
 
 /* Game Library */
